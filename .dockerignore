@@ -1,0 +1,8 @@
+node_modules
+dist
+tools
+server/cache
+server/exports
+server/history.json
+.git
+npm-debug.log*
