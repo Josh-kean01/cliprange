@@ -1,8 +1,6 @@
 node_modules
-dist
-tools
-server/cache
-server/exports
-server/history.json
+frontend/dist
+backend/storage
+backend/tools
 .git
 npm-debug.log*

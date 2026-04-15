@@ -1,0 +1,14 @@
+{
+  "name": "yt-down-backend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/index.js",
+    "start": "node src/index.js",
+    "setup:media-tools": "powershell -ExecutionPolicy Bypass -File ./scripts/setup-media-tools.ps1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

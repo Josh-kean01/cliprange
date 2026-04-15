@@ -1,13 +1,19 @@
-FROM node:22-bookworm-slim AS build
+FROM node:22-bookworm-slim AS frontend-build
 
-WORKDIR /app
+WORKDIR /app/frontend
 
-COPY package.json package-lock.json ./
-RUN npm ci
+COPY frontend/package.json ./package.json
+RUN npm install
 
-COPY . .
-RUN npm run build
-RUN npm prune --omit=dev
+COPY frontend ./frontend-src
+RUN cp -r ./frontend-src/. . && npm run build
+
+FROM node:22-bookworm-slim AS backend-deps
+
+WORKDIR /app/backend
+
+COPY backend/package.json ./package.json
+RUN npm install --omit=dev
 
 FROM node:22-bookworm-slim AS runtime
 
@@ -24,14 +30,12 @@ ENV NODE_ENV=production
 ENV PORT=8787
 ENV DATA_DIR=/data/cliprange
 
-COPY --from=build /app/package.json ./package.json
-COPY --from=build /app/package-lock.json ./package-lock.json
-COPY --from=build /app/node_modules ./node_modules
-COPY --from=build /app/server ./server
-COPY --from=build /app/dist ./dist
+COPY --from=backend-deps /app/backend/node_modules ./node_modules
+COPY backend ./backend
+COPY --from=frontend-build /app/frontend/dist ./frontend/dist
 
 VOLUME ["/data/cliprange"]
 
 EXPOSE 8787
 
-CMD ["npm", "start"]
+CMD ["node", "backend/src/index.js"]

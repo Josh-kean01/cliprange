@@ -1,6 +1,8 @@
 node_modules
-dist
-tools
-server/cache
-server/exports
-server/history.json
+backend/.env
+frontend/dist
+backend/storage/cache
+backend/storage/exports
+backend/storage/history.json
+backend/storage/tmp
+backend/tools

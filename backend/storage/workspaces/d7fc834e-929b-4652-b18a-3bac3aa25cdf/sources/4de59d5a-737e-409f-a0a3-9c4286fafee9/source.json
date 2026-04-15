@@ -1,0 +1,60 @@
+{
+  "sourceId": "4de59d5a-737e-409f-a0a3-9c4286fafee9",
+  "sourceType": "remote-source",
+  "originType": "remote",
+  "sourceKind": "short",
+  "sourceUrl": "https://www.youtube.com/shorts/flyg0PG_imk?feature=share",
+  "title": "Cement nail manufacturing process- Good tools and machinery make work easy",
+  "metaSummary": "Crafts people | 00:00:04",
+  "thumbnailUrl": "https://i.ytimg.com/vi/flyg0PG_imk/sd2.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYZSBTKEswDw==&rs=AOn4CLCiVFu6A3XX3_AH2YyyRf3pi-ROSw",
+  "tags": [],
+  "videoDetails": {
+    "videoId": "flyg0PG_imk",
+    "description": "",
+    "uploaderName": "Crafts people",
+    "uploaderId": "@craftspeople",
+    "uploaderUrl": "https://www.youtube.com/@craftspeople",
+    "channelName": "Crafts people",
+    "channelId": "UCvoh9uWVTzo8u3e5eX4lO5A",
+    "channelUrl": "https://www.youtube.com/channel/UCvoh9uWVTzo8u3e5eX4lO5A",
+    "uploadDate": "20230602",
+    "releaseDate": "",
+    "viewCount": 240094125,
+    "likeCount": 2160209,
+    "commentCount": 1400,
+    "categories": [
+      "People & Blogs"
+    ],
+    "tags": []
+  },
+  "durationSeconds": 4,
+  "createdAt": "2026-04-15T16:40:43.671Z",
+  "retrieveQuality": {
+    "requested": {
+      "key": "hd",
+      "label": "HD 1080p",
+      "maxResolution": 1080
+    },
+    "actual": {
+      "label": "1080p",
+      "value": 1080,
+      "width": 1080,
+      "height": 1920,
+      "resolution": "1080x1920",
+      "formatId": "399+139",
+      "formatNote": "1080p+low",
+      "isFallback": false
+    }
+  },
+  "media": {
+    "source": {
+      "fileName": "source.f399.mp4"
+    },
+    "preview": {
+      "fileName": "source.f399.mp4",
+      "mimeType": "video/mp4"
+    },
+    "subtitle": null
+  },
+  "sourceUrlKey": "youtube:short:flyg0PG_imk:hd"
+}

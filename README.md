@@ -1,22 +1,48 @@
-# ClipRange
+# yt-down
 
-React + Vite frontend with an Express media pipeline for retrieving, trimming, and sharing YouTube clips.
+`yt-down` is organized as a strict two-part fullstack app:
+
+- `frontend/` contains the React/Vite client only
+- `backend/` contains the Express API, media pipeline, downloader logic, and runtime storage only
+
+## Folder Layout
+
+```text
+yt-down/
+├─ backend/
+│  ├─ package.json
+│  ├─ scripts/
+│  ├─ src/
+│  │  ├─ config/
+│  │  ├─ controllers/
+│  │  ├─ middleware/
+│  │  ├─ routes/
+│  │  ├─ services/
+│  │  └─ utils/
+│  ├─ storage/
+│  └─ tools/
+├─ frontend/
+│  ├─ package.json
+│  ├─ src/
+│  └─ frontend config files
+└─ package.json
+```
 
 ## Local Development
 
-Start the API in one terminal:
+Start the backend:
 
 ```powershell
 cmd /c npm run server
 ```
 
-Start the Vite app in another:
+Start the frontend:
 
 ```powershell
 cmd /c npm run dev
 ```
 
-## Production
+## Production Build
 
 Build the frontend:
 
@@ -24,50 +50,37 @@ Build the frontend:
 cmd /c npm run build
 ```
 
-Start the production server:
+Start the backend:
 
 ```powershell
 cmd /c npm start
 ```
 
-After `npm run build`, the Express server serves the built frontend from `dist/` along with the existing `/api`, `/media`, and `/share` routes.
+The backend serves the built frontend from `frontend/dist` along with the `/api`, `/media`, and `/share` routes.
 
-## Environment Variables
+## Environment
 
-- `PORT`: HTTP port for the server. Defaults to `8787`.
-- `DATA_DIR`: Directory used for runtime cache, exports, history, and temp files. Defaults to `server/`.
-- `SESSION_SECRET`: A stable secret used to sign private workspace cookies. Set this in production.
-- `YT_DLP_PATH`: Optional override for the `yt-dlp` executable.
-- `FFMPEG_PATH`: Optional override for the `ffmpeg` executable.
-- `FFPROBE_PATH`: Optional override for the `ffprobe` executable.
+See `backend/.env.example` for supported variables.
 
-The server can now resolve media tools from:
+Create `backend/.env` for local development so the workspace cookie signature stays stable across backend restarts.
+
+Important values:
+
+- `PORT`: backend HTTP port, defaults to `8787`
+- `DATA_DIR`: backend runtime storage directory, defaults to `backend/storage`
+- `SESSION_SECRET`: signing key for workspace cookies. Set this in `backend/.env` during development to avoid random session resets after restart.
+- `YT_DLP_PATH`, `FFMPEG_PATH`, `FFPROBE_PATH`: optional overrides for local media tools
+
+## Media Tools
+
+Install local Windows media tools into `backend/tools` with:
+
+```powershell
+cmd /c npm run setup:media-tools
+```
+
+The backend resolves tools from:
 
 1. explicit environment variables
-2. local binaries in `tools/`
+2. `backend/tools`
 3. system `PATH`
-
-That means local Windows development still works, while Linux hosting can use standard installed binaries.
-
-## Docker
-
-Build the image:
-
-```powershell
-docker build -t cliprange .
-```
-
-Run it with persistent storage:
-
-```powershell
-docker run -p 8787:8787 -v cliprange-data:/data/cliprange cliprange
-```
-
-The container installs `ffmpeg` and `yt-dlp`, builds the frontend, and serves the whole app from one process.
-
-## Notes
-
-- The desktop and mobile layouts switch at `900px`.
-- Retrieval still depends on `yt-dlp` and `ffmpeg`.
-- Export history and rendered files live on disk, so hosted deployments should attach persistent storage if you want history and share links to survive restarts.
-- Private editor history, preview media, and downloads are isolated per browser workspace. Shared clip pages remain public by design.

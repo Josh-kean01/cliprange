@@ -1,0 +1,44 @@
+[
+  {
+    "entryId": "c1699ea3-d8ef-470f-ac00-947058200643",
+    "kind": "share",
+    "title": "Funny Video Ranking",
+    "sourceTitle": "Funny Video Ranking",
+    "createdAt": "2026-04-09T11:45:09.843Z",
+    "selection": {
+      "startSeconds": 0,
+      "endSeconds": 12,
+      "durationSeconds": 12
+    },
+    "sessionId": "b632dd5b-05df-47d9-8f16-69d2388ea84a",
+    "sourceRef": {
+      "sourceId": "594f1ee4-a23f-4e34-81de-2f804cfd9c54",
+      "sourceType": "cached-session",
+      "originType": "remote",
+      "sourceKind": "short",
+      "sourceUrl": "https://www.youtube.com/shorts/HFwSb6tDUDs?feature=share"
+    },
+    "reopen": {
+      "strategy": "session",
+      "sessionId": "b632dd5b-05df-47d9-8f16-69d2388ea84a"
+    },
+    "thumbnailUrl": "https://i.ytimg.com/vi/HFwSb6tDUDs/maxresdefault.jpg",
+    "tags": [],
+    "artifact": {
+      "fileName": "funny-video-ranking-c1699ea3-d8ef-470f-ac00-947058200643.mp4",
+      "downloadUrl": "/media/export/funny-video-ranking-c1699ea3-d8ef-470f-ac00-947058200643.mp4",
+      "shareUrl": "/share/c1699ea3-d8ef-470f-ac00-947058200643"
+    },
+    "notes": [],
+    "lineage": {
+      "remoteSourceId": "594f1ee4-a23f-4e34-81de-2f804cfd9c54",
+      "exportId": "c1699ea3-d8ef-470f-ac00-947058200643"
+    },
+    "options": {
+      "removeWatermark": true,
+      "autoSubtitles": false,
+      "subtitlesApplied": false,
+      "watermarkApplied": false
+    }
+  }
+]

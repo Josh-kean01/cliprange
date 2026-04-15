@@ -1,0 +1,200 @@
+[
+  {
+    "entryId": "6961eb8f-16f2-4265-835f-5c957b3b2c4a",
+    "kind": "share",
+    "title": "Caroline Nailed it 😂",
+    "sourceTitle": "Caroline Nailed it 😂",
+    "createdAt": "2026-04-09T10:13:19.512Z",
+    "selection": {
+      "startSeconds": 0,
+      "endSeconds": 96,
+      "durationSeconds": 96
+    },
+    "sessionId": "4d68a0a0-67c7-4625-b779-144584f1a824",
+    "sourceRef": {
+      "sourceId": "4208fb61-f89f-4c73-b559-7dad96590f3a",
+      "sourceType": "cached-session",
+      "originType": "remote",
+      "sourceKind": "short",
+      "sourceUrl": "https://www.youtube.com/shorts/-MMp5NFdsO8?feature=share"
+    },
+    "reopen": {
+      "strategy": "session",
+      "sessionId": "4d68a0a0-67c7-4625-b779-144584f1a824"
+    },
+    "thumbnailUrl": "https://i.ytimg.com/vi/-MMp5NFdsO8/maxresdefault.jpg",
+    "tags": [],
+    "artifact": {
+      "fileName": "caroline-nailed-it-6961eb8f-16f2-4265-835f-5c957b3b2c4a.mp4",
+      "downloadUrl": "/media/export/caroline-nailed-it-6961eb8f-16f2-4265-835f-5c957b3b2c4a.mp4",
+      "shareUrl": "/share/6961eb8f-16f2-4265-835f-5c957b3b2c4a"
+    },
+    "notes": [],
+    "lineage": {
+      "remoteSourceId": "4208fb61-f89f-4c73-b559-7dad96590f3a",
+      "exportId": "6961eb8f-16f2-4265-835f-5c957b3b2c4a"
+    },
+    "options": {
+      "removeWatermark": true,
+      "autoSubtitles": false,
+      "subtitlesApplied": false,
+      "watermarkApplied": false
+    }
+  },
+  {
+    "entryId": "4fb0deb0-2db0-4898-ad46-1c46be7ad55f",
+    "kind": "download",
+    "title": "Ramp Car Racing - Car Racing 3D - Android Gameplay",
+    "sourceTitle": "Ramp Car Racing - Car Racing 3D - Android Gameplay",
+    "createdAt": "2026-04-09T09:11:27.585Z",
+    "selection": {
+      "startSeconds": 0,
+      "endSeconds": 209,
+      "durationSeconds": 209
+    },
+    "sessionId": "61917784-9900-477a-b6b0-3418ba4b44bd",
+    "sourceRef": {
+      "sourceId": "696f335f-9260-440e-9f26-17240817fc7a",
+      "sourceType": "cached-session",
+      "originType": "remote",
+      "sourceKind": "video",
+      "sourceUrl": "https://www.youtube.com/watch?v=GyO1MtLhyt0"
+    },
+    "reopen": {
+      "strategy": "session",
+      "sessionId": "61917784-9900-477a-b6b0-3418ba4b44bd"
+    },
+    "thumbnailUrl": "https://i.ytimg.com/vi/GyO1MtLhyt0/sddefault.jpg",
+    "tags": [
+      "gameplay android",
+      "android games",
+      "android gameplay",
+      "driving simulator",
+      "simulator",
+      "simulator games",
+      "android game",
+      "android",
+      "2021",
+      "King Games",
+      "Ramp Impossible",
+      "Ramp Car Stunts Racing 2021"
+    ],
+    "artifact": {
+      "fileName": "ramp-car-racing-car-racing-3d-android-gameplay-4fb0deb0-2db0-4898-ad46-1c46be7ad55f.mp4",
+      "downloadUrl": "/media/export/ramp-car-racing-car-racing-3d-android-gameplay-4fb0deb0-2db0-4898-ad46-1c46be7ad55f.mp4",
+      "shareUrl": ""
+    },
+    "notes": [],
+    "lineage": {
+      "remoteSourceId": "696f335f-9260-440e-9f26-17240817fc7a",
+      "exportId": "4fb0deb0-2db0-4898-ad46-1c46be7ad55f"
+    },
+    "options": {
+      "removeWatermark": true,
+      "autoSubtitles": false,
+      "subtitlesApplied": false,
+      "watermarkApplied": false
+    }
+  },
+  {
+    "entryId": "1481fb81-6783-45d4-af2e-6fe90748f62b",
+    "kind": "draft",
+    "title": "Ramp Car Racing - Car Racing 3D - Android Gameplay",
+    "sourceTitle": "Ramp Car Racing - Car Racing 3D - Android Gameplay",
+    "createdAt": "2026-04-09T09:10:51.384Z",
+    "selection": {
+      "startSeconds": 0,
+      "endSeconds": 209,
+      "durationSeconds": 209
+    },
+    "sessionId": "845ed895-5e39-46ca-94d1-884846b028fb",
+    "sourceRef": {
+      "sourceId": "696f335f-9260-440e-9f26-17240817fc7a",
+      "sourceType": "cached-session",
+      "originType": "remote",
+      "sourceKind": "video",
+      "sourceUrl": "https://www.youtube.com/watch?v=GyO1MtLhyt0"
+    },
+    "reopen": {
+      "strategy": "session",
+      "sessionId": "845ed895-5e39-46ca-94d1-884846b028fb"
+    },
+    "thumbnailUrl": "https://i.ytimg.com/vi/GyO1MtLhyt0/sddefault.jpg",
+    "tags": [
+      "gameplay android",
+      "android games",
+      "android gameplay",
+      "driving simulator",
+      "simulator",
+      "simulator games",
+      "android game",
+      "android",
+      "2021",
+      "King Games",
+      "Ramp Impossible",
+      "Ramp Car Stunts Racing 2021"
+    ],
+    "artifact": {
+      "fileName": "",
+      "downloadUrl": "",
+      "shareUrl": ""
+    },
+    "notes": [
+      "Draft saved without rendering a new file."
+    ],
+    "lineage": {
+      "remoteSourceId": "696f335f-9260-440e-9f26-17240817fc7a",
+      "exportId": ""
+    },
+    "options": {
+      "removeWatermark": true,
+      "autoSubtitles": false,
+      "subtitlesApplied": false,
+      "watermarkApplied": false
+    }
+  },
+  {
+    "entryId": "87d114e5-d753-40b7-bd80-1992c83e3fe9",
+    "kind": "draft",
+    "title": "Caroline Nailed it 😂",
+    "sourceTitle": "Caroline Nailed it 😂",
+    "createdAt": "2026-04-09T09:02:17.634Z",
+    "selection": {
+      "startSeconds": 0,
+      "endSeconds": 96,
+      "durationSeconds": 96
+    },
+    "sessionId": "2b258434-d83d-49a2-9a49-8d0f06eff8b3",
+    "sourceRef": {
+      "sourceId": "4208fb61-f89f-4c73-b559-7dad96590f3a",
+      "sourceType": "cached-session",
+      "originType": "remote",
+      "sourceKind": "short",
+      "sourceUrl": "https://www.youtube.com/shorts/-MMp5NFdsO8?feature=share"
+    },
+    "reopen": {
+      "strategy": "session",
+      "sessionId": "2b258434-d83d-49a2-9a49-8d0f06eff8b3"
+    },
+    "thumbnailUrl": "https://i.ytimg.com/vi/-MMp5NFdsO8/maxresdefault.jpg",
+    "tags": [],
+    "artifact": {
+      "fileName": "",
+      "downloadUrl": "",
+      "shareUrl": ""
+    },
+    "notes": [
+      "Draft saved without rendering a new file."
+    ],
+    "lineage": {
+      "remoteSourceId": "4208fb61-f89f-4c73-b559-7dad96590f3a",
+      "exportId": ""
+    },
+    "options": {
+      "removeWatermark": true,
+      "autoSubtitles": false,
+      "subtitlesApplied": false,
+      "watermarkApplied": false
+    }
+  }
+]

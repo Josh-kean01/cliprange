@@ -1,0 +1,44 @@
+[
+  {
+    "entryId": "a05dc4f3-900f-4488-ad4e-11eface596ae",
+    "kind": "download",
+    "title": "Mr. Bean teases the ladies. #movie #edit #film",
+    "sourceTitle": "Mr. Bean teases the ladies. #movie #edit #film",
+    "createdAt": "2026-04-14T11:19:12.718Z",
+    "selection": {
+      "startSeconds": 0,
+      "endSeconds": 59,
+      "durationSeconds": 59
+    },
+    "sessionId": "bbecec74-a834-4140-85af-b7e12823c866",
+    "sourceRef": {
+      "sourceId": "1ab75ddd-a490-44d7-9d3e-3a75cdce9e61",
+      "sourceType": "cached-session",
+      "originType": "remote",
+      "sourceKind": "short",
+      "sourceUrl": "https://www.youtube.com/shorts/mGDoHofEP3s?feature=share"
+    },
+    "reopen": {
+      "strategy": "session",
+      "sessionId": "bbecec74-a834-4140-85af-b7e12823c866"
+    },
+    "thumbnailUrl": "https://i.ytimg.com/vi/mGDoHofEP3s/sd2.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKwCYoCDAgAEAEYZSBTKEswDw==&rs=AOn4CLA94tPjj46JhhtXpCt_ajMdMQQRMA",
+    "tags": [],
+    "artifact": {
+      "fileName": "mr-bean-teases-the-ladies-movie-edit-film-a05dc4f3-900f-4488-ad4e-11eface596ae.mp4",
+      "downloadUrl": "/media/export/mr-bean-teases-the-ladies-movie-edit-film-a05dc4f3-900f-4488-ad4e-11eface596ae.mp4",
+      "shareUrl": ""
+    },
+    "notes": [],
+    "lineage": {
+      "remoteSourceId": "1ab75ddd-a490-44d7-9d3e-3a75cdce9e61",
+      "exportId": "a05dc4f3-900f-4488-ad4e-11eface596ae"
+    },
+    "options": {
+      "removeWatermark": true,
+      "autoSubtitles": false,
+      "subtitlesApplied": false,
+      "watermarkApplied": false
+    }
+  }
+]
